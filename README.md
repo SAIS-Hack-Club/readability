@@ -10,6 +10,20 @@ where `L` is the average number of letters per 100 words in the text, and `S` is
 
 ## Getting started
 
+Clone the repository by running the following command in your terminal:
+
+```bash
+git clone https://github.com/SAIS-Hack-Club/readability.git
+```
+
+Then, you should see a folder called `readability` in your current directory. Change into that directory by running:
+
+```bash
+cd readability
+```
+
+Now, run `ls` to see the contents of the folder. You should see a file called `readability.py`. This is the Python program that you will be building on. There is also a file called `helpers.py` which contains some helper functions that you can use in your program. You can read more about them in the comments in the file.
+
 ## Sample usage
 
 ```bash
