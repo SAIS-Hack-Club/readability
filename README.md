@@ -10,10 +10,14 @@ where `L` is the average number of letters per 100 words in the text, and `S` is
 
 ## Getting started
 
-Clone the repository by running the following command in your terminal:
+### Prerequisites
+
+You will need Python 3.6 or later to run this program. You can check your version of Python by running `python3 --version` in your terminal. If you do not have Python 3.6 or later, you can download/update it in Self Service. If you are confused about how to do this, please ask me for help.
+
+Fork this repository and clone it to your computer via the command line:
 
 ```bash
-git clone https://github.com/SAIS-Hack-Club/readability.git
+git clone https://github.com/<your-github-username>/readability.git
 ```
 
 Then, you should see a folder called `readability` in your current directory. Change into that directory by running:
@@ -24,6 +28,10 @@ cd readability
 
 Now, run `ls` to see the contents of the folder. You should see a file called `readability.py`. This is the Python program that you will be building on. There is also a file called `helpers.py` which contains some helper functions that you can use in your program. You can read more about them in the comments in the file.
 
+## Your task
+
+Your task is to complete the `readability.py` program so that it calculates the approximate grade level required to understand some text. You should use the `get_string` function from the `helpers.py` file to prompt the user for a string of text (using `input`). Then, you should print the grade level using the `print` function after calculating it using the Coleman-Liau formula.
+
 ## Sample usage
 
 ```bash
@@ -31,6 +39,23 @@ $ python3 readability.py
 Text: Congratulations! Today is your day. You're off to Great Places! You're off and away!
 Grade 3
 ```
+
+```bash
+$ python3 readability.py
+Text: Maybe it's not the mountains ahead to climb that wear you out; it's the pebble in your shoe.
+Grade 6
+```
+
+## Submission
+
+To submit, commit your changes and push them to your fork of the repository. Then, send me a link to your forked repository on Google Chat. If you are confused about how to do this, please ask me for help.
+
+- [ ] Fork this repository
+- [ ] Clone your fork to your computer
+- [ ] Complete the `readability.py` program
+- [ ] Commit your changes
+- [ ] Push your changes to your fork
+- [ ] Send me a link to your fork on Google Chat
 
 ## References
 
