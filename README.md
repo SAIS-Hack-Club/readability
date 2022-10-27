@@ -14,7 +14,7 @@ where `L` is the average number of letters per 100 words in the text, and `S` is
 
 You will need Python 3.6 or later to run this program. You can check your version of Python by running `python3 --version` in your terminal. If you do not have Python 3.6 or later, you can download/update it in Self Service. If you are confused about how to do this, please ask me for help.
 
-Fork this repository and clone it to your computer via the command line:
+This is a [template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template), and you can generate your own version of this repository by clicking on the green `Use this template` button on the home page. Once you have created your new repository, you can then clone it to your computer via the command line:
 
 ```bash
 git clone https://github.com/<your-github-username>/readability.git
